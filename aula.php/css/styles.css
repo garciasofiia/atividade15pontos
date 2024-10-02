@@ -1,0 +1,75 @@
+body {
+    font-family: 'roboto slab', serif;
+    background-color: #dd94bf; 
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #dd94bf;
+}
+h1 {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 95px; /* Espaçamento abaixo do título */
+    border-radius: 100px; 
+}
+
+h2 {
+    color: black;
+    text-align: center; /* Centraliza o título */
+    margin-top: 95px; /* Espaçamento abaixo do título */
+    background-color: rgba(255, 255, 255, 0.5);
+} 
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 500px; /* Define a largura do formulário */
+    height: 300px; /* Define a altura do formulário */
+}
+
+label {
+    color: #ffffff;
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ffffff;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+/*todo as etapas envolvendo o CSS (etapa 7 entre outras) terminei no dia 2/10 às 9:30*/
